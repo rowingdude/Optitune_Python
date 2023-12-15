@@ -1,19 +1,19 @@
-#OptiTune Python: Python Bindings for OptiTune API
-##Overview
+OptiTune Python: Python Bindings for OptiTune API
+Overview
 
 OptiTune Python will provide easy access to the OptiTune hyperparameter tuning and model optimization platform's API using Python. It aims to allow data scientists and developers to fully control and automate OptiTune's functionality through Python 3.
 Features
 
-    Clean, Pythonic API for accessing OptiTune API endpoints like creating jobs, datasets, etc
-    Detailed documentation of the underlying REST API resources and how they map to Python functions
-    Support for authentication, headers, and requests required by OptiTune
-    Response parsing and Python native data types for OptiTune resources
-    Easy job configuration and execution of hyperparameter sweeps
-    Tracking logs and results for optimization jobs
-    Visualizations for monitored metrics like loss, accuracy etc
-    Utilities for exporting optimization artifacts like best model parameters
+ Clean, Pythonic API for accessing OptiTune API endpoints like creating jobs, datasets, etc
+ Detailed documentation of the underlying REST API resources and how they map to Python functions
+ Support for authentication, headers, and requests required by OptiTune
+ Response parsing and Python native data types for OptiTune resources
+ Easy job configuration and execution of hyperparameter sweeps
+ Tracking logs and results for optimization jobs
+ Visualizations for monitored metrics like loss, accuracy etc
+ Utilities for exporting optimization artifacts like best model parameters
 
-##Documentation
+Documentation
 
 As part of this library, we will fully document the underlying OptiTune REST API, detailing all accessible resources and endpoints in Python docstrings. We will enumerate the available configuration parameters and options at each level, providing programmatic descriptions alongside the requests interface.
 
